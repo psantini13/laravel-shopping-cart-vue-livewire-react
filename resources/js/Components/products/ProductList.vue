@@ -13,7 +13,7 @@ defineProps({
 
 <template>
     <div class="flex flex-wrap">
-        <div class="w-1/3 p-3" v-for="(product, index) in products" :key="product.id + '_product'">
+        <div class="w-1/3 p-3" v-for="(product) in products" :key="product.id + '_product'">
             <div class="rounded-md">
                 <a href="#"><img src="https://dummyimage.com/700x400/babde8/1320d1.jpg&text=Demo+Product+700+x+400" alt=""></a>
                 <div class="mt-3">

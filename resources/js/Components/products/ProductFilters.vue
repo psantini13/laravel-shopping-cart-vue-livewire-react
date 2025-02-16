@@ -1,7 +1,6 @@
 <script setup>
 
 import {router} from "@inertiajs/vue3";
-import {data} from "autoprefixer";
 
 defineProps({
     categories: {
